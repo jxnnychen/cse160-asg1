@@ -3,15 +3,21 @@ function drawMyCustomDesign() {
     drawTriangleWithColor([0.5, 0.6], [0.6, 0.2], [-0.6, 0.2], [0.71, 0.45, 0.2, 1.0]);
 
     // ears
-    drawTriangleWithColor([-0.6, 0.75], [-0.5, 0.6], [-0.7, 0.65], [0.1, 0.1, 0.1, 1.0]); // Left ear
-    drawTriangleWithColor([0.6, 0.75], [0.5, 0.6], [0.7, 0.65], [0.1, 0.1, 0.1, 1.0]);   // Right ear
+    // left ear
+    drawTriangleWithColor([-0.6, 0.75], [-0.5, 0.6], [-0.7, 0.65], [0.1, 0.1, 0.1, 1.0]);
+    drawTriangleWithColor([-0.65, 0.55], [-0.5, 0.6], [-0.7, 0.65], [0.1, 0.1, 0.1, 1.0]);
+    // right ear
+    drawTriangleWithColor([0.6, 0.75], [0.5, 0.6], [0.7, 0.65], [0.1, 0.1, 0.1, 1.0]);
+    drawTriangleWithColor([0.65, 0.55], [0.5, 0.6], [0.7, 0.65], [0.1, 0.1, 0.1, 1.0]);
 
     // eyes
     drawTriangleWithColor([-0.2, 0.45], [-0.15, 0.45], [-0.2, 0.4], [0, 0, 0, 1]);
     drawTriangleWithColor([-0.15, 0.45], [-0.15, 0.4], [-0.2, 0.4], [0, 0, 0, 1]);
+    drawTriangleWithColor([-0.25, 0.45], [-0.15, 0.40], [-0.2, 0.45], [0, 0, 0, 1]);
 
     drawTriangleWithColor([0.2, 0.45], [0.15, 0.45], [0.2, 0.4], [0, 0, 0, 1]);
     drawTriangleWithColor([0.15, 0.45], [0.15, 0.4], [0.2, 0.4], [0, 0, 0, 1]);
+    drawTriangleWithColor([0.25, 0.45], [0.15, 0.40], [0.2, 0.45], [0, 0, 0, 1]);
 
     // body
     drawTriangleWithColor([-0.6, 0.2], [0.6, 0.2], [-0.5, -0.6], [0.65, 0.4, 0.2, 1.0]);
